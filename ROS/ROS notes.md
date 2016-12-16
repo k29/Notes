@@ -110,4 +110,4 @@ rosservice call word_count 'one two three'
 * You should use services for things that you only need to do occasionally, or when you need a synchronous reply. The computations in a service callback should take a short, bounded amount of time to complete. If they’re going to take a long time, or the time is going to be highly variable, you should think about using an action.
 
 ## Action
-*
+* 
